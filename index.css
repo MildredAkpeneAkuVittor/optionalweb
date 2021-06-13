@@ -17,11 +17,14 @@ a{
    
 }
 .electronic{
-    border: yellow 5px solid;
-    background-color: yellow;
+    
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 1rem;
 }
 .menubar{
-    background-color: yellowgreen
+    background-color: #F4F5F7;
+    
 }
 
 .headerimg{
@@ -103,7 +106,7 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 footer{
-    background-color: yellowgreen;
+    background-color: #F4F5F7;
 }
 footer>.first, footer>.second{
     display:inline-block;

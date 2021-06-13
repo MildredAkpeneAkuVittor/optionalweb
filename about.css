@@ -1,8 +1,5 @@
 
-#one{
-    font-size: 20px;
-    font-style: inherit;
-}a{
+a{
     text-decoration: none;
     font-style: oblique;
     font:status-bar;
@@ -17,9 +14,109 @@
    
 }
 .electronic{
-    border: yellow 5px solid;
-    background-color: yellow;
+    
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 1rem;
 }
 .menubar{
-    background-color: yellowgreen
+    background-color: #F4F5F7;
+    position: static;
+}
+
+.headerimg{
+    padding-left: 30%;
+    max-width: 50%;
+    height: 50px;
+}
+p{
+    font-weight: 100;
+	font-size: 40px;
+	line-height: 64px;
+	color: #2D314D
+
+}
+
+
+
+.main {
+	position: relative;
+}
+.main-img {
+	height: 900px;
+	background-image: url('../images/hero-phones-desktop.png'), url('../images/hero-phones-desktop-bg.png');
+	background-repeat: no-repeat;
+	background-position: right -80px;
+	z-index: 100;
+	position: relative;
+}
+.digital-banking {
+	background-color: #F2F2F2;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 170px 11.5%;
+}
+.digital-banking-heading {
+	font-weight: 100;
+	width: 40%;
+	font-size: 56px;
+	line-height: 64px;
+	color: #2D314D;
+}
+.digital-banking-content {
+	font-size: 18px;
+	line-height: 28px;
+	width: 42%;
+	margin-top: 24px;
+	color: #9597A5;
+}
+.digital-banking .request-link {
+	position: relative;
+	margin-top: 36px;
+	z-index: 1000;
+}
+.Benana {
+	position: absolute;
+	width: 100%;
+	top: 707px;
+	padding: 96px 11.5%;
+	background-color: #F4F5F7;
+}
+.Benana-heading {
+	font-weight: 100;
+	font-size: 40px;
+	line-height: 64px;
+	color: #2D314D;
+}
+.Benana-content {
+	font-size: 18px;
+	width: 55%;
+	line-height: 28px;
+	margin-top: 16px;
+	color: #9597A5;
+}
+.Benana-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 72px;
+}
+.Benana-item {
+	width: 22.5%;
+}
+.Benana-item>img {
+	display: block;
+}
+.Benana-item>h3 {
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 28px;
+	color: #2D314D;
+	margin-top: 40px;
+}
+.Benana-item>p {
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 26px;
+	color: #9597A5;
 }
