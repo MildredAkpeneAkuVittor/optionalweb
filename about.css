@@ -1,0 +1,25 @@
+
+#one{
+    font-size: 20px;
+    font-style: inherit;
+}a{
+    text-decoration: none;
+    font-style: oblique;
+    font:status-bar;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+.menuItem{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 1rem;
+   
+}
+.electronic{
+    border: yellow 5px solid;
+    background-color: yellow;
+}
+.menubar{
+    background-color: yellowgreen
+}
